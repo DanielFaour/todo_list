@@ -11,9 +11,6 @@ export const TodoWrapper = () => {
     });
 
     useEffect(() => {
-        // Store todos in local storage whenever they change
-        // This hook runs every time the 'todos' state changes
-        // It ensures that the latest state of 'todos' is saved in local storage
         localStorage.setItem('todos', JSON.stringify(todos));
     }, [todos]);
     
