@@ -13,10 +13,11 @@ export const TodoForm = ({addTodo}) => {
   return (
     <>
       <h1>Todo List</h1>
+      <p>Here you can add your chores to a todo list!</p>
       <form className="inputConteiner" onSubmit={handleSubmit}>
-        <input type="text" value={value} placeholder='Skriv inn gjøremål...' onChange={(e) => setValue(e.target.value)}/>
+        <input type="text" value={value} placeholder='Write in your todos...' onChange={(e) => setValue(e.target.value)}/>
         <button>Add</button>
-      </form> 
+      </form>
     </>
   );
 }

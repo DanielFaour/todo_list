@@ -8,9 +8,11 @@
   padding: 40px;
   padding-left: 100px;
   padding-right: 100px;
+  padding-bottom: 60px;
   margin-top: 60px;
   max-width: min-content;
   border-radius: 8px;
+  gap: 15px;
 }
 
 h1 {
@@ -18,7 +20,6 @@ h1 {
   line-height: 1;
   text-align: center;
   margin: 10px;
-  margin-bottom: 20px;
 }
 
 .inputConteiner {
@@ -39,6 +40,7 @@ button {
   color: #000000;
   cursor: pointer;
   transition: background-color border-color 0.1s;
+
 }
 
 button:hover {
@@ -62,4 +64,21 @@ input {
 
 input:focus {
   outline: none;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  width: 100%;
+  height: max-content;
+  border-radius: 2px;
+  background-color: #1b244b;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  text-align: center;
 }
