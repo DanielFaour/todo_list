@@ -3,14 +3,14 @@
   background-color: #00000036;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: column;
   padding: 40px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
   padding-bottom: 60px;
   margin-top: 60px;
-  max-width: min-content;
+  max-width: 500px;
   border-radius: 8px;
   gap: 15px;
 }
@@ -54,7 +54,7 @@ input {
   border-bottom-left-radius: 2px;
   border-right: transparent;
   padding: 10px 15px;
-  width: 300px;
+  width: 100%;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
