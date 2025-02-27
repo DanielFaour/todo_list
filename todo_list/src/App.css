@@ -76,6 +76,7 @@ input:focus {
   border-radius: 2px;
   background-color: #1b244b;
   box-sizing: border-box;
+  overflow: auto;
 }
 
 p {
